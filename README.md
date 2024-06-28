@@ -1,1 +1,1 @@
-Our code will be made public when the paper is accepted.
+Our code will be made public soon.
