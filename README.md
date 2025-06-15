@@ -1,23 +1,14 @@
-Code + Models for ACL 2024 Findings paper "Pinpointing Diffusion Grid Noise to Enhance Aspect Sentiment Quad Prediction"
+Code + Models for ACL 2024 Findings paper "Pinpointing Diffusion Grid Noise to Enhance Aspect Sentiment Quad
+Prediction"
 Paper Link: https://aclanthology.org/2024.findings-acl.222/
 
 Module Requirements:
 
 You can recreate the full Conda environment used by running the following (may require some tweaking of the environment name/path to run on your machine):
-```
-conda env create -f environment.yml
-```
-```
-Python >- 3.9+
-torch >= 1.10
-pytorch-lightning >= 1.8.6
-sentencepiece >= 0.1.97
-transformers >= 4.19.0
-```
 
-Module Usage:
-1. `conda activate GDP`
-2. Run `python main.py` for model training/inference. 
+1. `conda env create -f environment.yml`
+2. `conda activate GDP`
+3. Run `python main.py` for model training/inference. 
 
 Please cite our paper as such:
 ```

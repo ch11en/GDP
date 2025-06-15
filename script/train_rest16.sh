@@ -1,0 +1,22 @@
+python ../source/main.py \
+   --task gdp \
+   --do_train \
+   --do_infer \
+   --dataset 'Rest16' \
+   --model_name_or_path 't5-base' \
+   --output_dir '../outputs' \
+   --n_gpu 1 \
+   --batch_size 8 \
+   --learning_rate 5e-5 \
+   --gradient_accumulation_steps 1 \
+   --max_seq_length 128 \
+   --num_train_epochs 11 \
+   --num_beams 5 \
+   --weight_decay 0.0 \
+   --seed 10 \
+   --cont_loss 0.05 \
+   --cont_temp 0.25 \
+   --model_prefix laptop_output \
+   --grid_loss_lambda 0.2 \
+   --scl_loss_lambda 0.2 \
+   --category_loss_lambda 0
